@@ -6,7 +6,7 @@
   "scripts": {
     "test": "istanbul cover _mocha",
     "start": "pm2 start index.js --name 'myblog'",
-    "heroku": "node index"
+    "heroku": "NODE_ENV=production node index"
   },
   "_comment": {
     "scripts": {
